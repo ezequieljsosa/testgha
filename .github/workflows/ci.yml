@@ -1,12 +1,9 @@
 name: Integracion continua
 
-on:
-  pull_request:
-    branches: [ master ]
-
-
+on:  [push]
+    
 jobs:
-  test_pull_request:
+  test_on_push:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
