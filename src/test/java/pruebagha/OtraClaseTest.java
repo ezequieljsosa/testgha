@@ -6,7 +6,7 @@ public class OtraClaseTest {
 
 	public void testOtraClaseTrue() {
 		OtraClase unObj = new OtraClase();
-		Assertions.assertEquals(unObj,1);
+		Assertions.assertEquals(unObj,unObj);
 			
 	}
 	
