@@ -12,7 +12,7 @@ public class UnaClase {
 	}
 	
 	public double potenciar(OtraClase otra) {
-		return Math.pow( otra.getValor() + 1 ,  this.potencia);
+		return Math.pow( otra.getValor()  ,  this.potencia);
 	}
 	
 	
