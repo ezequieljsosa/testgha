@@ -3,7 +3,7 @@ package pruebagha;
 import org.junit.jupiter.api.Assertions;
 
 public class UnaClaseTest {
-/*
+
 	public void testUnaClase4() {
 		UnaClase unObj = new UnaClase(2);
 		OtraClase oc = new OtraClase();
@@ -17,5 +17,5 @@ public class UnaClaseTest {
 		oc.setValor(2);
 		Assertions.assertEquals(1,unObj.potenciar(oc));			
 	}
-*/	
+
 }
