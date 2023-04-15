@@ -12,7 +12,7 @@ public class OtraClaseTest {
 	
 	public void testOtraClaseFalso() {
 		OtraClase unObj = new OtraClase();
-		Assertions.assertFalse(unObj.equals(false));
+		Assertions.assertTrue(unObj.equals(false));
 			
 	}
 	
